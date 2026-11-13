@@ -1,0 +1,216 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    background-color: #171717;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+/* header */
+
+header{
+    background-color: #E60012;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 8px;
+}
+
+
+nav a {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 10px 18px ;
+    border-bottom: solid white 3px;
+}
+
+span {
+    color: black;
+}
+
+/* main */
+
+h1, h2, h3 {
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+main > section {
+    padding: 65px 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+
+.h1span {color: #E60012;}
+
+.label{
+    padding-bottom: 30px;
+    color: #E60012;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.firstp {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.cover {
+    display: block;
+    width: 960px;
+    margin: 35px auto;
+    border: 7px solid white;
+}
+
+.rating {
+    background-color: #E60012;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 1160px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.reviewbutton {
+    display: block;
+    background-color: white;
+    color: black;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+/*section after the main one */
+
+.h21 {
+    color: #E60012;
+    margin-bottom: 20px;
+}
+
+.about {
+    text-align: left;
+    background-color: white;
+    color: #171717;
+    line-height: 2;
+    padding: 60px 150px;
+    font-size: 18px;
+
+}
+
+/* gameplay section */
+
+.gameplay {
+    text-align: left;
+    background-color: #181818;
+    color: white;
+    line-height: 2;
+    padding: 60px 150px;
+    font-size: 18px;
+    
+}
+
+.gamep {
+    margin: 20px 0;
+}
+
+article{
+    display: inline-block;
+    background-color: #292929;
+    width: 350px;
+    height: 250px;
+    border-bottom: solid #ff3444 10px;
+    align-content: center;
+    padding: 10px;
+    margin: 10px;
+    vertical-align: top;
+
+}
+
+.h3a {
+    color: #ff3444;
+    margin-bottom: 30px;
+}
+
+/* review section */
+
+.review {
+    text-align: left;
+    background-color: #E60012;
+    color: white;
+    line-height: 2.4;
+    padding: 60px 150px;
+    font-size: 18px;
+
+}
+
+.reh3{
+    background-color: #181818;
+    padding: 15px;
+}
+
+.finalsc {
+    background-color: #181818;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+button {
+    display: block;
+    background-color: white;
+    color: #e60012;
+    padding: 15px 30px;
+    margin: 25px auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* joker aside */
+
+.joker {
+    text-align: left;
+    background-color: white;
+    color: #181818;
+    line-height: 2;
+    padding: 60px 150px;
+    font-size: 18px;
+}
+.jk {
+    color: #E60012;
+    font-size: 24px;
+}
+
+/* footer */
+footer {
+    background-color: #080808;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 25px;
+    margin: 20px;
+    
+}
